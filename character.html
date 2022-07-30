@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Character Customizer - Project Polygon</title>
+		<link rel='shortcut icon' type='image/x-icon' href='/img/ProjectPolygon.ico' />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="polygon-csrf" content="34ba7f07f8930956eb4155c8313bdd268708d07cd2903a5a4efa6943da0f5b4d">
+		<meta name="theme-color" content="#eb4034">
+		<meta property="og:type" content="Website">
+		<meta property="og:url" content="https://polygon.pizzaboxer.xyz">
+		<meta property="og:site_name" content="Project Polygon">
+		<meta property="og:description" content="yeah">
+		<meta property="og:image" content="https://polygon.pizzaboxer.xyz/img/ProjectPolygon.png">
+		<meta property="og:title" content="Character Customizer">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/fontawesome-pro-v5.15.2/css/all.css">
+		<link rel="stylesheet" href="/css/toastr.css">
+		<link rel="stylesheet" href="/css/polygon.css?id=d68cd845cf80a6c6d35d5b3cdbd599e327d3503b">
+		<link rel="stylesheet" href="/css/polygon-2014.css?id=c97f8f2f1bfad9ad5a66faab390a182c6e440893">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<script type="text/javascript" src="/js/toastr.js"></script>
+		<script type="text/javascript" src="/js/polygon/Navigation2014.js?id=66676c1399b8f3d13021f816781720e25f011916"></script>
+		<script>
+			var polygon = {};
+
+			polygon.user =
+			{
+
+				logged_in: true,
+				name: "Spongebob",
+				id: 408,
+				money: 648,
+
+				theme: "2014"
+			};
+		</script>
+	</head>
+	<body class="layout-2014 mt-5">
+		<div class="nav-container no-gutter-ads">
+			<div class="navigation" id="navigation" onselectstart="return false;">
+				<div class="navigation-container">
+					<ul>
+						<li>
+							<div class="user">
+								<div class="menu-item">
+									<div class="username"><a href="/user?ID=408">Spongebob</a></div>
+								</div>
+							</div>
+						</li>
+						<li class="nav2014-my-roblox">
+							<a class="menu-item" href="/home">
+							<span class="icon"></span>Home
+							</a>
+						</li>
+						<li class="nav2014-profile">
+							<a class="menu-item" href="/user">
+							<span class="icon"></span>Profile
+							</a>
+						</li>
+						<!--li class="nav2014-messages">
+							<a class="menu-item" href="/user">
+							   	<span class="icon"></span>Messages
+							</a>
+						</li-->
+						<li class="nav2014-friends">
+							<a class="menu-item" href="/friends">
+							<span class="icon"></span>Friends
+							<span class="notification-icon text-light friend-requests-indicator">2</span>
+							</a>
+						</li>
+						<li class="nav2014-character">
+							<a class="menu-item" href="/my/character">
+							<span class="icon"></span>Character
+							</a>
+						</li>
+						<li class="nav2014-inventory">
+							<a class="menu-item" href="/my/stuff">
+							<span class="icon"></span>Inventory
+							</a>
+						</li>
+						<li class="nav2014-groups">
+							<a class="menu-item" href="/my/invites">
+							<span class="icon"></span>Invitations
+							</a>
+						</li>
+						<li class="nav2014-develop">
+							<a class="menu-item" href="/develop">
+							<span class="icon"></span>Develop
+							</a>
+						</li>
+						<li class="nav2014-groups">
+							<a class="menu-item" href="/groups">
+							<span class="icon"></span>Groups
+							</a>
+						</li>
+						<li class="nav2014-forum">
+							<a class="menu-item" href="/forum">
+							<span class="icon"></span>Forum
+							</a>
+						</li>
+						<!--li class="nav2014-blog">
+							<a class="menu-item" href="https://web.archive.org/web/20140821165031/http://blog.roblox.com/">
+							    <span class="icon"></span>Blog
+							</a>
+						</li>
+						<li class="upgrade-now">
+							<a href="/web/20140821165031/http://www.roblox.com/Upgrades/BuildersClubMemberships.aspx" class="nav-button" id="builders-club-button">Upgrade Now</a>
+						</li>
+						<li class="nav2014-events">
+							<span class="events-text">Events</span>
+						</li>
+						<li class="nav2014-sponsor">
+							<a class="menu-item" href="/web/20140821165031/http://www.roblox.com/event/clanbattle" title="Clan Battle">
+								<img src="https://web.archive.org/web/20140821165031im_/http://images.rbxcdn.com/6d4be1b1b1e67971c837da0dae72e82d">
+							</a>
+						</li-->
+					</ul>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark navbar-orange header-2014 fixed-top py-0">
+				<div class="nav-icon" onselectstart="return false;"></div>
+				<a class="navbar-brand pt-0" href="/"><img src="/img/2013/roblox_logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="primaryNavbar">
+					<ul class="navbar-nav header-links mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/games">Games</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/catalog">Catalog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/develop">Develop</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/forum">Forum</a>
+						</li>
+						<div class="search">
+							<div class="search-input-container">
+								<input type="text" placeholder="Search">
+							</div>
+							<div class="search-icon"></div>
+							<div class="universal-search-dropdown">
+								<div class="universal-search-option" data-searchurl="/games?Keyword=">
+									<div class="universal-search-text">Search <span class="universal-search-string"></span> in Games</div>
+								</div>
+								<div class="universal-search-option" data-searchurl="/browse?Category=People&SearchTextBox=">
+									<div class="universal-search-text">Search <span class="universal-search-string"></span> in People</div>
+								</div>
+								<div class="universal-search-option selected" data-searchurl="/browse?Category=Groups&SearchTextBox=">
+									<div class="universal-search-text">Search <span class="universal-search-string"></span> in Groups</div>
+								</div>
+								<div class="universal-search-option" data-searchurl="/catalog?Keyword=">
+									<div class="universal-search-text">Search <span class="universal-search-string"></span> in Catalog</div>
+								</div>
+								<div class="universal-search-option" data-searchurl="/catalog?CurrencyType=0&SortType=1&Category=6&Keyword=">
+									<div class="universal-search-text">Search <span class="universal-search-string"></span> in Library</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					<div class="navbar-nav">
+						<div class="navbar-button-container">
+							<a class="btn btn-sm mr-4" data-toggle="tooltip" data-html="true" data-placement="bottom" title="648 Pizzas <br> Next stipend in 1d, 14h, 23m and 31s" href="/my/money"><i class="fas fa-pizza-slice mr-1"></i> 648</a>
+						</div>
+						<div class="navbar-button-container dropdown-hover">
+							<a class="btn btn-sm" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+							<div class="dropdown-menu dropdown-menu-right mx-2" aria-labelledby="settings-dropdown">
+								<a class="dropdown-item" href="/my/account">Settings</a>
+								<a class="dropdown-item" href="/logout">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<noscript>
+			<div id="ctl00_Announcement">
+				<div id="ctl00_SystemAlertDiv" class="SystemAlert" style="background-color:red">
+					<div id="ctl00_SystemAlertTextColor" class="SystemAlertText">
+						<div id="ctl00_LabelAnnouncement">Please enable Javascript to use all the features on this site.</div>
+					</div>
+				</div>
+			</div>
+		</noscript>
+		<div id="ctl00_Announcement">
+			<div id="ctl00_SystemAlertDiv" class="SystemAlert" style="background-color:#1963F7">
+				<div id="ctl00_SystemAlertTextColor" class="SystemAlertText">
+					<div id="ctl00_LabelAnnouncement"><a href="/farewell">On August 12, we'll be gone. Thank you all for being a part of Project Polygon.</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="app container nav-content py-4" id="navContent"><h2 class="font-weight-normal">Character Customizer</h2>
+<div class="row mt-4 px-3">
+	<div class="col-md-4">
+		<h3 class="font-weight-normal">Avatar</h3>
+		<div class="thumbnail-holder text-right" data-reset-enabled-every-page="" data-3d-thumbs-enabled="" data-url="https://polygoncdn.pizzaboxer.xyz/e99b4e611dbba2c8a777a56da59dfc028d541df4.png">
+			<span class="thumbnail-span mx-auto d-block" data-3d-url="/avatar-thumbnail-3d/json?userId=408">
+				<img alt="Spongebob" class="avatar img-fluid" src="https://polygoncdn.pizzaboxer.xyz/e99b4e611dbba2c8a777a56da59dfc028d541df4.png">
+			</span>
+			<button class="enable-three-dee btn btn-sm btn-light">Enable 3D</button>
+		</div>
+		<p class="m-0">Something wrong with your avatar?</p>
+		<p class="m-0"><a href="#" onclick="polygon.character.render_avatar(); return false;">Click here to re-draw it!</a></p>
+	</div>
+	<div class="col-md-8 divider-bottom">
+		<ul class="nav nav-tabs pl-2" id="characterTabs" role="tablist">
+		  	<li class="nav-item">
+		    	<a class="nav-link active" id="wardrobe-tab" data-toggle="tab" href="#wardrobe" role="tab" aria-controls="friends" aria-selected="true">Wardrobe</a>
+		  	</li>
+		</ul>
+		<div class="tab-content py-3" id="characterTabsContent">
+		  	<div class="tab-pane active wardrobe-container" id="wardrobe" role="tabpanel">
+		  		<ul class="nav nav-pills mx-auto" role="tablist" style="max-width:34rem">
+		  			<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="17" data-toggle="pill" role="tab">Heads</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="18" data-toggle="pill" role="tab">Faces</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2 active" href="#" data-asset-type="8" data-toggle="pill" role="tab">Hats</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="2" data-toggle="pill" role="tab">T-Shirts</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="11" data-toggle="pill" role="tab">Shirts</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="12" data-toggle="pill" role="tab">Pants</a>
+				  	</li>
+				  	<span>|</span>
+				  	<li class="nav-item">
+				    	<a class="nav-link AttireCategorySelector px-2 py-0 mx-2" href="#" data-asset-type="19" data-toggle="pill" role="tab">Gears</a>
+				  	</li>
+				</ul>
+				<div class="mt-3">
+					<div class="text-center">
+						<div class="loading"><span class="jumbo spinner-border" role="status"></span></div>
+						<p class="no-items"></p>
+					</div>
+					<div class="items row"></div>
+					<div class="pagination form-inline justify-content-center d-none">
+						<button type="button" class="btn btn-light mx-2 back"><h5 class="mb-0"><i class="fal fa-caret-left"></i></h5></button>
+						<span>Page</span>
+						<input class="form-control form-control-sm text-center mx-1 px-0 page" type="text" data-last-page="1" style="width:40px">
+						<span>of <span class="pages">10</span></span>
+						<button type="button" class="btn btn-light mx-2 next"><h5 class="mb-0"><i class="fal fa-caret-right"></i></h5></button>
+					</div>
+				</div>
+				<div class="template d-none">
+				  	<div class="col-sm-3 col-6 mb-3 px-2">
+					  	<div class="card hover">
+					  		<a class="btn btn-sm btn-primary px-3 toggle-wear" data-asset-id="$item_id" style="position:absolute;right:0">Wear</a>
+					    	<a href="$url"><img src="https://polygoncdn.pizzaboxer.xyz/a9e786b5c339f29f9016d21858bf22c54146855c.png" data-src="$item_thumbnail" class="card-img-top img-fluid p-2" title="$item_name" alt="$item_name"></a>
+							<div class="card-body p-2" style="line-height:normal">
+						  		<p class="text-truncate m-0" title="$item_name"><a href="$url" style="color:inherit">$item_name</a></p>
+							</div>
+					  	</div>
+				  	</div>
+				</div>
+		  	</div>
+		</div>
+	</div>
+	<div class="col-md-4 mt-4">
+		<h3 class="font-weight-normal">Colors</h3>
+		<div class="Mannequin text-center">
+			<p>Click a body part to change its color:</p>
+			<div class="ColorChooserFrame mx-auto" style="height:240px;width:194px;text-align:center;">
+				<div style="position: relative; margin: 11px 4px; height: 1%;">
+					<div style="position: absolute; left: 72px; top: 0px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Head" style="background-color:#FF0000;height:44px;width:44px;"></div>
+					</div>
+					<div style="position: absolute; left: 0px; top: 52px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Right Arm" style="background-color:#A4BD47;height:88px;width:40px;"></div>
+					</div>
+					<div style="position: absolute; left: 48px; top: 52px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Torso" style="background-color:#C4281C;height:88px;width:88px;"></div>
+					</div>
+					<div style="position: absolute; left: 144px; top: 52px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Left Arm" style="background-color:#A4BD47;height:88px;width:40px;"></div>
+					</div>
+					<div style="position: absolute; left: 48px; top: 146px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Left Leg" style="background-color:#111111;height:88px;width:40px;"></div>
+					</div>
+					<div style="position: absolute; left: 96px; top: 146px; cursor: pointer">
+						<div class="ColorChooserRegion" data-body-part="Right Leg" style="background-color:#111111;height:88px;width:40px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8 mt-4">
+		<h3 class="font-weight-normal">Currently Wearing</h3>
+		<div class="mt-3 wearing-container">
+			<div class="text-center">
+				<div class="loading"><span class="jumbo spinner-border" role="status"></span></div>
+				<p class="no-items"></p>
+			</div>
+			<div class="items row"></div>
+			<div class="pagination form-inline justify-content-center d-none">
+				<button type="button" class="btn btn-light mx-2 back"><h5 class="mb-0"><i class="fal fa-caret-left"></i></h5></button>
+				<span>Page</span>
+				<input class="form-control form-control-sm text-center mx-1 px-0 page" type="text" data-last-page="1" style="width:40px">
+				<span>of <span class="pages">10</span></span>
+				<button type="button" class="btn btn-light mx-2 next"><h5 class="mb-0"><i class="fal fa-caret-right"></i></h5></button>
+			</div>
+			<div class="template d-none">
+				<div class="col-sm-3 col-6 mb-3 px-2">
+					<div class="card hover">
+						<a class="btn btn-sm btn-primary px-2 toggle-wear" data-asset-id="$item_id" style="position:absolute;right:0">Remove</a>
+						<a href="$url"><img src="https://polygoncdn.pizzaboxer.xyz/a9e786b5c339f29f9016d21858bf22c54146855c.png" data-src="$item_thumbnail" class="card-img-top img-fluid p-2" title="$item_name" alt="$item_name"></a>
+						<div class="card-body p-2" style="line-height:normal">
+							<p class="text-truncate text-primary m-0" title="$item_name"><a href="$url" style="color:inherit">$item_name</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ColorPickerModalTemplate d-none">
+	<div class="ColorPickerContainer text-left mx-auto" data-body-part="$body_part" style="max-width:351px">
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#B4D2E4;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#AFDDFF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#80BBDC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#6E99CA;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#0D69AC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#0000FF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#2154B9;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#002060;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#9FF3E9;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#12EED4;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#789082;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#7F8E64;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#74869D;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#00FFFF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#04AFEC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#008F9C;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#CCFFCC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#A1C48C;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#A4BD47;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#4B974B;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#3A7D15;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#00FF00;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#287F47;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#27462D;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFFFCC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FDEA8D;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#C1BE42;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#F5CD30;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFAF00;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFFF00;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFAF00;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#E29B40;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFC9C9;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#EAB892;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#DA867A;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#A34B4B;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FF66CC;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FF00BF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FF0000;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#C4281C;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#E8BAC8;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#B1A7FF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#B480FF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#957977;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#8C5B9F;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#AA00AA;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#6225D1;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#6B327C;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#D7C59A;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#FFCC99;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#CC8E69;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#DA8541;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#A05F35;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#AA5500;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#7C5C46;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#694028;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#F8F8F8;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#F2F3F3;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#E5E4DF;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#CDCDCD;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#A3A2A5;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#635F62;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#1B2A35;height:40px;width:40px;"></div>
+		<div class="ColorPickerItem" style="display:inline-block;background-color:#111111;height:40px;width:40px;"></div>
+	</div>
+</div>
+		</div>
+		<footer>
+			<div class="container text-center py-2">
+				<hr>
+				<div class="row mt-4">
+					<div class="col-xl-6 col-lg-4 text-lg-left">
+
+						<p><a href="/info/terms-of-service" class="px-2" style="color:inherit">Terms of Service</a> | <a href="/info/privacy" class="px-2" style="color:inherit">Privacy Policy</a> | <a href="/discord" class="px-2" style="color:inherit">Discord</a></p>
+					</div>
+					<div class="col-xl-6 col-lg-8 text-lg-right">
+						<p><small>© 2022 Project Polygon. We are in no way associated with Roblox Corporation.</small></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="global modal fade" tabindex="-1" role="dialog" aria-labelledby="primaryModalCenter" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header card-header bg-cardpanel py-2">
+						<h3 class="col-12 modal-title text-center font-weight-normal"></h3>
+					</div>
+					<div class="modal-body text-center text-break">
+						your smell
+					</div>
+					<div class="modal-footer text-center">
+						<div class="mx-auto">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="placelauncher modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content"></div>
+			</div>
+			<div class="launch template d-none">
+				<div class="modal-body text-center">
+					<span class="jumbo spinner-border text-danger mb-3" role="status"></span>
+					<h5 class="font-weight-normal mb-3">Starting Project Polygon...</h5>
+					<a class="btn btn-sm btn-outline-danger btn-block px-4 cancel-join" data-dismiss="modal">Cancel</a>
+				</div>
+			</div>
+			<div class="install template d-none">
+				<div class="modal-body text-center pb-0">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img src="/img/ProjectPolygon.png" class="img-fluid pl-3 py-3 pr-1" style="max-width: 150px">
+					<h2 class="font-weight-normal">Welcome to Project Polygon!</h2>
+					<h5 class="font-weight-normal">Seems like you don't have <span class="year">2010</span> installed</h5>
+					<a class="btn btn-success btn-block mx-auto mt-3 install" style="max-width:18rem">Download</a>
+				</div>
+				<div class="modal-footer text-center py-2">
+					<small class="mx-auto">If you do have the client installed, just ignore this</small>
+				</div>
+			</div>
+		</div>
+		<script src="/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="/js/polygon/core.js?id=e9c4c6393d4683d25bf27e29226b996b125f1f36"></script>
+		<script type="text/javascript" src="/js/polygon/character.js?id=1d7625491f9d4551876b40e4ca983f798fa9b456"></script>
+		<script type="text/javascript" src="/js/3D/ThumbnailView.js?id=fd604d7b77f132271df958cfebec1fe1021672a4"></script>
+		<script type="text/javascript" src="/js/3D/ThreeDeeThumbnails.js?id=5e35c26008559e20123d504cdcead17ee2aa71a0"></script>
+		<script type="text/javascript" src="/js/3D/three.min.js?id=2d9a7854fe8a4f93ca2b3fb3f899155ff214917a"></script>
+		<script type="text/javascript" src="/js/3D/MTLLoader.js?id=e6bd8e75a70dd360161f2731d12534438de74ce4"></script>
+		<script type="text/javascript" src="/js/3D/OBJMTLLoader.js?id=eb4c5a8f3aa24dcb9523ec6babdc38f0ba2ff44f"></script>
+		<script type="text/javascript" src="/js/3D/tween.js?id=32eb09511baad9c2d89af8ad1592df1e29d9ba90"></script>
+		<script type="text/javascript" src="/js/3D/PolygonOrbitControls.js?id=230db15869cc4cb2d89abaa35a52a959e9c65435"></script>
+
+	</body>
+</html>
